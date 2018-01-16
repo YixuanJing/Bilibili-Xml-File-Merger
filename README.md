@@ -1,5 +1,6 @@
 # Bilibili-Xml-File-Merger
 English:
+
 Some xml of bilibili are split, this project can merge them.
 
 Usage:
@@ -11,6 +12,7 @@ Usage:
 6. Input the path you want to save the final file.
 
 Chinese:
+
 本脚本可以用来合并同一视频，但是分成了多份的bilibili弹幕（例如目前的缘之空弹幕即为每集有两份弹幕）
 
 用法：
