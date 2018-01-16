@@ -37,7 +37,7 @@ def merger(file1, file2, path):
 
 def space_remover(str):
     while str[-1] == ' ':
-        str = str[-1]
+        str = str[:-1]
     return str
 
 n = 0
