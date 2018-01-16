@@ -1,6 +1,7 @@
 # Bilibili-Xml-File-Merger
 English:
 Some xml of bilibili are split, this project can merge them.
+
 Usage:
 1. install Python3 (www.python.org)
 2. Download 'Merger.py'
