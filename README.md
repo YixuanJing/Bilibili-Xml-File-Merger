@@ -11,6 +11,7 @@ Usage:
 
 Chinese:
 本脚本可以用来合并同一视频，但是分成了多份的bilibili弹幕（例如目前的缘之空弹幕即为每集有两份弹幕）
+
 用法：
 1. 下载并安装Python3 (www.python.org)
 2. 下载 “Merger.py”
