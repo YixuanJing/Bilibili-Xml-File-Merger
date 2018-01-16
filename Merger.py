@@ -34,11 +34,17 @@ def merger(file1, file2, path):
                     new_file.write(line[:6] + str(float(line[6:y]) + c) + line[y:])
         new_file.write('</i>')
         return new_file_path
+
+def space_remover(str):
+    while str[-1] == ' ':
+        str = str[-1]
+    return str
+
 n = 0
 while True:
-    file1, file2 = input('Input the path of first file:').split()[0], input('Input the path of second file:').split()[0]
+    file1, file2 = space_remover(input('Input the path of first file:')), space_remover(input('Input the path of second file:'))
     if n == 0:
-        new_file_path = input('Input the path of final file:').split()[0]
+        new_file_path = space_remover(input('Input the path of final file:'))
     print('success, the path of new file is:%s' % merger(file1, file2, new_file_path))
     z, n = input('Do you want to continue?(N/Y):'), n + 1
     if z == 'N':
